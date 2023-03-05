@@ -6,6 +6,8 @@
 
 ## OpenAI API 快速入门- Node.js 示例应用程序
 
+> https://github.com/openai/openai-quickstart-node
+
 这是 OpenAI API[快速入门教程](https://platform.openai.com/docs/quickstart)中使用的一个宠物名生成器示例应用程序。
 它使用[Next.js](https://nextjs.org/)框架和[React](https://reactjs.org/)。查看教程或按照下面的说明进行设置。
 
