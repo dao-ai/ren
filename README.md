@@ -15,14 +15,14 @@
 
 ### 配置
 
-1. 如果你没有安装 Node.js，[从这里安装](https://nodejs.org/en/) (Node.js 版本&gt;= 14.6.0 必需)
+1. 如果你没有安装 Node.js，[从这里安装](https://nodejs.org/en/) (Node.js 版本必需 `>= 14.6.0` )
 
 2. 克隆这个存储库
 
 3. 导航到项目目录
 
    ```bash
-   $ cd openai-quickstart-node
+   $ cd ren
    ```
 
 4. 安装需求
@@ -45,7 +45,7 @@
    $ copy .env.example .env
    ```
 
-6. 将您的[API 密钥](https://platform.openai.com/account/api-keys)添加到新创建的' .env '文件中
+6. 将您的[API 密钥](https://platform.openai.com/account/api-keys)添加到新创建的`.env`文件中
 7. 添加代理
 
    ```bash
@@ -61,7 +61,7 @@
 您现在应该能够访问应用程序在[http://localhost:3000](http://localhost:3000)!
 要了解这个示例应用程序的完整背景，请查看[教程](https://platform.openai.com/docs/quickstart)。
 
-## Proxy
+## 代理
 
 代理服务: [Shadowsocks](https://shadowsocks.nl/)
 代理器: [clashX](https://github.com/yichengchen/clashX)
