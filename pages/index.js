@@ -1,6 +1,8 @@
 import Head from "next/head";
 import { useState } from "react";
 import styles from "./index.module.css";
+import { serialize } from "next-mdx-remote/serialize";
+import { MDXRemote } from "next-mdx-remote";
 
 export default function Home() {
   const [animalInput, setAnimalInput] = useState("");
@@ -24,7 +26,7 @@ export default function Home() {
 
       setResult(data.result);
       setAnimalInput("");
-    } catch(error) {
+    } catch (error) {
       // Consider implementing your own error handling logic here
       console.error(error);
       alert(error.message);
@@ -42,16 +44,20 @@ export default function Home() {
         <img src="/dog.png" className={styles.icon} />
         <h3>Name my pet</h3>
         <form onSubmit={onSubmit}>
-          <input
-            type="text"
+          <textarea
             name="animal"
-            placeholder="Enter an animal"
+            placeholder="输入内容"
+            rows="5"
+            cols="33"
             value={animalInput}
             onChange={(e) => setAnimalInput(e.target.value)}
           />
-          <input type="submit" value="Generate names" />
+          <input type="submit" value="说" />
         </form>
         <div className={styles.result}>{result}</div>
+        <div className={styles.result}>
+          <MDXRemote {...source} components={components} />
+        </div>
       </main>
     </div>
   );

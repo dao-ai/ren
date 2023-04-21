@@ -1,0 +1,17 @@
+# api 参考
+
+- [introduction](introduction.md)
+- [authentication](authentication.md)
+- [making-requests](making-requests.md)
+- [models](models.md)
+- [completions](completions.md)
+- [chat](chat.md)
+- [edits](edits.md)
+- [images](images.md)
+- [embeddings](embeddings.md)
+- [audio](audio.md)
+- [files](files.md)
+- [fine-tunes](fine-tunes.md)
+- [moderations](moderations.md)
+- [engines](engines.md)
+- [parameter-details](parameter-details.md)
