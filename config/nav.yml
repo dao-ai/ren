@@ -44,3 +44,5 @@ nav:
   - 工具:
       - prompts.md
       - tags.md
+  - 学习:
+      - deeplearning/1.introduction.md
